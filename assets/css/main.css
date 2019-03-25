@@ -2055,10 +2055,10 @@ input, select, textarea {
 
 	#banner {
 		position: relative;
-		padding: 4.5em;
+		padding: 0;
 		margin-bottom: 2em;
 		height: 300px;
-		 display: flex;
+		display: flex;
     	justify-content: center;
     	align-items: center;
     	overflow: hidden
@@ -2077,36 +2077,10 @@ input, select, textarea {
 
 		#banner img {
 		  	flex-shrink: 0;
-    		min-width: 100%;
-    		min-height: 100%
+		  	max-width: 100%;
     		background-size: cover;
 		}
 
-		#banner .button {
-			width: 100%;
-			margin-bottom: 0.5em;
-		}
-
-			#banner .button.icon:before {
-				position: absolute;
-				right: 0.15em;
-				top: 50%;
-				margin-top: -0.5em;
-			}
-
-			#banner .button.alt {
-				margin-bottom: 0;
-			}
-
-		#banner ul {
-			list-style: none;
-			padding-left: 0;
-			margin: 0 0 0 2em;
-		}
-
-			#banner ul li {
-				padding-left: 0;
-			}
 
 /* Footer */
 
@@ -2272,20 +2246,17 @@ input, select, textarea {
 		/* Banner */
 
 			#banner {
-				padding: 4.5em 3em;
+				padding: 0;
 				text-align: center;
 				margin-bottom: 2em;
 			}
 
-				#banner ul {
-					margin: 2em 0 0 0;
+				#banner img {
+				  	flex-shrink: 0;
+				  	max-width: 100%;
+		    		background-size: cover;
 				}
 
-				#banner .button.icon:before {
-					position: relative;
-					right: auto;
-					top: auto;
-				}
 
 		/* Content */
 
@@ -2630,29 +2601,16 @@ input, select, textarea {
 
 			#banner {
 				text-align: center;
-				padding: 15px 15px 15px 15px;
+				padding: 0;
 				margin: 0 0 2em 0 !important;
+				height: 200px;
 			}
 
-				#banner h2 {
-					font-size: 2em;
-					margin: 0.75em 0 0.5em 0;
+				#banner img {
+				  	flex-shrink: 0;
+				  	max-width: 100%;
+		    		background-size: cover;
 				}
-
-				#banner p {
-					font-size: 1.5em;
-					line-height: 1.5em;
-					margin: 0;
-				}
-
-				#banner ul {
-					margin: 0;
-				}
-
-				#banner .button {
-					margin: 0 0 1em 0;
-				}
-
 		/* Content */
 
 			#content {
