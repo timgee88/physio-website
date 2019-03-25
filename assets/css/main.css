@@ -1907,7 +1907,7 @@ input, select, textarea {
 	}
 
 	#footer-wrapper {
-		padding: 6em 0 8em 0;
+		padding: 2em 0 2em 0;
 	}
 
 /* Header */
@@ -2107,7 +2107,7 @@ input, select, textarea {
 
 	#copyright {
 		color: #aaa;
-		padding: 4em 0 0 0;
+		padding: 1em 0 0 0;
 		text-align: center;
 	}
 
@@ -2234,7 +2234,7 @@ input, select, textarea {
 			}
 
 			#footer-wrapper {
-				padding: 6em 0 4em 0;
+				padding: 2em 0 2em 0;
 			}
 
 		/* Header */
