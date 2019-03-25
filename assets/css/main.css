@@ -1470,6 +1470,7 @@ input, select, textarea {
 
 	header {
 		margin: 0 0 2em 0;
+		background: #fff;
 	}
 
 		header h2, header h3 {
@@ -1776,7 +1777,6 @@ input, select, textarea {
 				padding-left: 0;
 			}
 
-/* Box */
 
 	.box {
 		background: #fff;
@@ -1891,9 +1891,11 @@ input, select, textarea {
 /* Wrappers */
 
 	#header-wrapper {
-		padding: 4.5em 0 3em 0;
+		background: #fff;
+		box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, 0.05);
+		padding: 0;
+		margin-bottom: 2em;
 	}
-
 	#features-wrapper {
 		padding: 3em 0 3em 0;
 	}
@@ -1920,8 +1922,12 @@ input, select, textarea {
 		display: inline-block;
 	}
 
+		#logo img {
+			height: 100px;
+		}
+
 		#logo h1 {
-			background: #ff4486;
+			background: #fff;
 			color: #fff;
 			border-radius: 6px;
 			font-family: 'Oleo Script', serif;
@@ -1933,21 +1939,13 @@ input, select, textarea {
 			vertical-align: middle;
 		}
 
-		#logo span {
-			font-weight: 800;
-			line-height: 4.5em;
-			letter-spacing: 0.025em;
-			font-size: 0.9em;
-			vertical-align: middle;
-			margin: 0 0 0 1.25em;
-		}
 
 /* Nav */
 
 	#nav {
 		position: absolute;
 		right: 0;
-		top: 0;
+		bottom: 1.5em;
 		font-size: 0.9em;
 	}
 
