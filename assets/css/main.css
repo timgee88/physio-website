@@ -2454,8 +2454,13 @@ input, select, textarea {
 			body, input, select, textarea {
 				line-height: 2em;
 			}
+			
+			h2 {
+				font-size: 17pt;
+				margin: 0 0 1em 0;
+			}
 
-			h2, h3, h4, h5, h6 {
+			h3, h4, h5, h6 {
 				font-size: 13pt;
 				margin: 0 0 1em 0;
 			}
