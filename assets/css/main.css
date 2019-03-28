@@ -10,8 +10,14 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+h1 {
+	font-size: 300%;
+	text-align: center;
+	line-height: 1.5em	;
+}
+
 html, body, div, span, applet, object,
-iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
+iframe, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
 code, del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var, b,
@@ -1911,9 +1917,10 @@ input, select, textarea {
 		box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, 0.05);
 		padding: 0;
 		margin-bottom: 2em;
+	
 	}
 	
-	#contact-banner h1 {
+	#contact-banner h3 {
 		color: #fff;
 		/*margin-right: 10%; use if aligning banner to right*/
 	}
@@ -1946,9 +1953,7 @@ input, select, textarea {
 
 		#logo img {
 			height: 100px;
-		}
-
-		#logo h1 {
+			/*this i pulled up from the logo h1 below*/
 			background: #fff;
 			color: #fff;
 			border-radius: 6px;
@@ -1960,6 +1965,11 @@ input, select, textarea {
 			display: inline-block;
 			vertical-align: middle;
 		}
+		
+
+		/*#logo h1 {
+			
+		}*/
 
 
 /* Nav */
@@ -2469,8 +2479,12 @@ input, select, textarea {
 				line-height: 2em;
 			}
 			
+			h1 {
+				font-size: 14pt;
+			}
+			
 			h2 {
-				font-size: 17pt;
+				font-size: 14pt;
 				margin: 0 0 1em 0;
 			}
 
@@ -2621,10 +2635,10 @@ input, select, textarea {
 
 		/* Logo */
 
-			#logo h1 {
+			/*#logo h1 {
 				font-size: 2.75em;
 				padding: 0.2em 0.275em;
-			}
+			}*/
 
 			#logo span {
 				line-height: 3em;
