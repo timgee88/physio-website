@@ -1789,7 +1789,7 @@ input, select, textarea {
 	.box {
 		background: #fff;
 		border-radius: 6px;
-		box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, 0.05);
+		/*box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, 0.05);*/
 		padding: 2em;
 	}
 
@@ -1902,8 +1902,22 @@ input, select, textarea {
 		background: #fff;
 		box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, 0.05);
 		padding: 0;
+		
+	}
+	
+	#contact-banner {
+		text-align: center;
+		background-image: linear-gradient(to right, #1c83af, #2ca8de);
+		box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, 0.05);
+		padding: 0;
 		margin-bottom: 2em;
 	}
+	
+	#contact-banner h1 {
+		color: #fff;
+		/*margin-right: 10%; use if aligning banner to right*/
+	}
+	
 	#features-wrapper {
 		padding: 3em 0 3em 0;
 	}
@@ -2225,7 +2239,7 @@ input, select, textarea {
 		/* Wrappers */
 
 			#header-wrapper {
-				padding: 3em 0 1em 0;
+				padding: 1em 0 1em 0;
 				text-align: center;
 			}
 
@@ -2586,9 +2600,13 @@ input, select, textarea {
 		/* Wrappers */
 
 			#header-wrapper {
-				padding: 3em 0 1.5em 0;
+				padding: 0em 0 0em 0;
 			}
-
+			
+			/*#contact-banner {
+				text-align: center;
+			}* use if aligning banner right for full screen*/
+			
 			#banner-wrapper {
 				padding: 0 15px 0 15px;
 			}
