@@ -1497,6 +1497,10 @@ input, select, textarea {
 	footer {
 		margin: 2.5em 0 0 0;
 	}
+	
+	#footer-hours{
+		
+	}
 
 /* Forms */
 
@@ -1925,6 +1929,7 @@ input, select, textarea {
 		/*margin-right: 10%; use if aligning banner to right*/
 	}
 	
+	
 	#features-wrapper {
 		padding: 3em 0 3em 0;
 	}
@@ -1932,7 +1937,7 @@ input, select, textarea {
 	#main-wrapper {
 		background: #fff;
 		box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, 0.05);
-		padding: 5em 0 5em 0;
+		padding: 1.5em 0 1.5em 0;
 	}
 
 	#footer-wrapper {
@@ -1952,7 +1957,7 @@ input, select, textarea {
 	}
 
 		#logo img {
-			height: 100px;
+			height: 150px;
 			/*this i pulled up from the logo h1 below*/
 			background: #fff;
 			color: #fff;
