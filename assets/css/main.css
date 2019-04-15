@@ -55,9 +55,9 @@ hr {
 }
 
 .circle-image {
-	height: 60%;
-	width: 60%;
-	margin: 30px;
+	height: 50%;
+	width: 50%;
+	margin: 38px;
 }
 
 
@@ -2003,7 +2003,7 @@ input, select, textarea {
 	}
 
 		#logo img {
-			height: 150px;
+			height: 175px;
 			/*this i pulled up from the logo h1 below*/
 			background: #fff;
 			color: #fff;
@@ -2399,7 +2399,7 @@ input, select, textarea {
 				#navToggle .toggle {
 					width: 70px;
 					height: 50px;
-					opacity: 0.35;
+					opacity: 1.0;
 				}
 
 					#navToggle .toggle:before {
@@ -2531,7 +2531,7 @@ input, select, textarea {
 			}
 			
 			h1 {
-				font-size: 14pt;
+				font-size: 16pt;
 			}
 			
 			h2 {
