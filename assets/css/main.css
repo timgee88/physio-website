@@ -1975,6 +1975,19 @@ input, select, textarea {
 		/*margin-right: 10%; use if aligning banner to right*/
 	}
 	
+	#emerg-banner {
+		text-align: center;
+		background-image: linear-gradient(to right, #ff6200, #f27f2c);
+		box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, 0.05);
+		padding: 0;
+		margin-bottom: 2em;
+	
+	}
+	
+	#emerg-banner h2 {
+		color: #fff;
+		/*margin-right: 10%; use if aligning banner to right*/
+	}
 	
 	#features-wrapper {
 		padding: 3em 0 3em 0;
