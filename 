@@ -1,0 +1,14 @@
+user.name=Tim Gee
+user.email=timgee88@gmail.com
+core.editor=/usr/bin/nano
+core.whitespace=off
+core.excludesfile=~/.gitignore
+advice.statusuoption=false
+color.ui=true
+push.default=matching
+core.repositoryformatversion=0
+core.filemode=true
+core.bare=false
+core.logallrefupdates=true
+remote.origin.url=git@github.com:timgee88/physio-website.git
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
